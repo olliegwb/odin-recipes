@@ -32,77 +32,21 @@ body{
     color: darkslategrey;
 }
 
-.box-one{
-    
-    width: 100%;
-    box-sizing: border-box;
-    h2{
-        margin: 0;
-    }
-}
-
-.pasta-ingredients{
+.ingredients{
     display: flex;
     list-style: none;
     box-sizing: border-box;
     margin-left: -20px;
     li{
-        margin-right: 100px;
-        width: auto;
-    }
-}
-
-.curry-ingredients{
-    display: flex;
-    list-style: none;
-    box-sizing: border-box;
-    margin-left: -20px;
-    li{
-        margin-right: 100px;
+        margin-right: 6%;
         margin-bottom: 20px;
         width: auto;
     }
 }
 
-.ragu-ingredients{
-    display: flex;
-    list-style: none;
-    box-sizing: border-box;
-    margin-left: -20px;
+.method{
     li{
-        margin-right: 150px;
-        margin-bottom: 20px;
-        width: auto;
-    }
-}
-
-.sauce-ingredients{
-    display: flex;
-    list-style: none;
-    box-sizing: border-box;
-    margin-left: -20px;
-    li{
-        margin-right: 150px;
-        margin-bottom: 20px;
-        width: auto;
-    }
-}
-
-.lasagna-ingredients{
-    display: flex;
-    list-style: none;
-    box-sizing: border-box;
-    margin-left: -20px;
-    li{
-        margin-right: 150px;
-        margin-bottom: 20px;
-        width: auto;
-    }
-}
-
-ol{
-    li{
-        padding: 5px;
+        padding: 8px;
     }
 }
 
